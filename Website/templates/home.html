@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISAA PROJECT </title>
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/scroll.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <section id="hero">
+        <div class="hero-container">
+            <h1 data-aos="zoom-in"><span id="glow">Crime Detection</span></h1>
+            <h2 data-aos="fade-up">Safety and Surveillance</h2>
+        </div>
+    </section><!-- End Hero -->
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-between">
+
+            <div class="logo">
+                <span id="nav-title">Crime Detector</span>
+            </div>
+
+            
+
+        </div>
+    </header><!-- End Header -->
+
+    <main id="main">
+
+        <section id="upload" class="upload">
+            
+            <div class="section-title" data-aos="fade-up">
+                <h2>Test our Project </h2>
+              
+            </div>
+            <div class="d-flex align-items-center justify-content-center" data-aos="fade-up">
+                <form method="post" enctype="multipart/form-data" id="vid_form">
+                    {% csrf_token %}
+                    <input type="file" accept=".mp4" name="vid" required="" id="id_vid" hidden>
+                    <label for="id_vid" class=" fBtn cta-btn align-middle" style="cursor: pointer;">Choose Video
+                        File</label>
+                    <button class="btn btn-secondary" hidden>Submit</button>
+                </form>
+            </div>
+        
+
+        </section>
+
+
+
+        <!-- ======= About Us Section ======= -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-title" data-aos="fade-up">
+                    <h3>Solving the issue from a different, wider perspective. </h3>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6" data-aos="fade-right">
+                        <div class="image" style="padding-top: 0;">
+                            <img src="assets/img/about.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 pt-3" data-aos="fade-left">
+                        <div class="content pt-4 pt-lg-0 pl-0 pl-lg-3 ">
+                            <h4>Surveillance is an integral part of security and control.</h4>
+                            <p class="font-italic">
+                                Requires extended periods of examining multiple footages for evidence. This manual task
+                                provides
+                                evidence in court but is rarely used to detect and prevent crime in real-time.
+                                We bring a solution to ensure a step towards safety of women and reduce the crime
+                                statistics.
+
+                            </p>
+                            <h4>In Delhi</h4>
+                            <ul>
+                                <li><i class="bx bx-check-double"></i> 11,542 cases of crime in 2017</li>
+                                <li><i class="bx bx-check-double"></i> 1,05,000 CCTV cameras are installed in public
+                                    places.</li>
+                                <li><i class="bx bx-check-double"></i> 1,40,000 CCTV cameras are in the process of
+                                    installation.</li>
+                            </ul>
+                            <p>
+                                We convert an evidence collecting tool to a crime prevention and detection tool.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End About Us Section -->
+        
+        </section>
+        
+
+        
+
+    </main><!-- End #main -->
+
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <a href="#header" class="scrollto footer-logo"><img src="assets/img/favicon.png" alt=""></a>
+                        <h3>Team: Ritika & Saurabh</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </footer><!-- End Footer -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/particles/particles.min.js"></script>
+    <script src="assets/particles/app.js"></script>
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+    <script type="text/javascript">
+        document.getElementById('vid_form').onchange = function () {
+            document.getElementById('vid_form').submit();
+        };
+    </script>
+</body>
+
+</html>
