@@ -1,13 +1,26 @@
 # RAL TIME VIOLENCE DETECTION USING VIDEO SURVEILLANCE
 ## Introduction
-**Surveillance** means safety. Despite so much surveillance, the crime rates are increasing. The problem lies in the fact that inspecting several hundreds and thousands of videos is very laborous and time-intensive task. Only after a crime is committed, these footages are inspected to ***find the crime scenes evidence***, which proves to be highly inefficient considering the massive amount of footages. This manual task provides evidence in court but is rarely used to ***prevent crime or react to it in real-time***.    
+“Surveillance is safety and security.”
+
+Despite the increased surveillance using many CCTV cameras, people etc the crime rates are rising rapidly. Many countries now employ public video surveillance as a primary tool to monitor population movements and to prevent crime and terrorism, both in the private and public sectors.
+The idea is to develope a full software solution for safety and surveillance that turns traditional CCTVs from only recording / evidence collecting into a crime prevention and detection tool, providing safety and security. This tech will work in real-time and show the statistics of all the CCTV surveillance.   
+Our proposed method will ensure public safety and security without requiring any human intervention, while also providing an immediate alarm to the appropriate authorities. Our method attempts to instil a sense of security in men and women through crowd monitoring and behavioural analysis.
+Through our proposed approach, the constant rise of criminal actions, their unexpectedness, and the breadth of harm that can be caused can be exponentially curtailed.
+
 <br>
 
-## 🔭 &nbsp; About this Project
-In this project, we aim to develop a **real-time crime detection technology** that can be integrated with any security system, to ensure public safety through **visual crowd surveillance**.<br>
-We have devised a complete software solution for safety and surveillance where we convert these CCTVs from an evidence collection to a crime prevention and detection tool to ensure safety and security.<br> This real-time crime detection technology is integrated with security systems and Desktop Application to get push-in notifications in case any suspicious activity is discovered.
-The system will detect and simultaneously alert any violent activity captured by the camera. <br>The technologies encompasses domains of Computer Vision and Deep Learning models like **CNN, R-CNN, LSTM**. The dataset consists of 500+ videos scraped off internet and categorized into ***violent and non-violent*** activities. 
-<br>
+## NEURAL NETWORK ARCHITECTURE (CUSTOMIZED CNN) 
+A Convolutional Neural Network (ConvNet/CNN) is a Deep Learning algorithm which can take in an input image, assign importance to various aspects/objects in the image/video and be able to differentiate one from the other. The pre-processing required in a CNN is much lower as compared to other classification algorithms. While in primitive methods filters are hand-coded, with enough training, CNN have the ability to learn these filters/characteristics.
+
+Some parameters that we are using are
+
+            	Optimizer: Adam
+
+            	Loss: BinaryCrossEntropy
+
+            	Epochs: 30
+
+            	steps_per_epoch: 50
 
 
 ## 💼 &nbsp; Testing
