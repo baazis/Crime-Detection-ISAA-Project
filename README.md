@@ -12,6 +12,8 @@ Through our proposed approach, the constant rise of criminal actions, their unex
 
 ## DATASET-
 
+https://github.com/airtlab/A-Dataset-for-Automatic-Violence-Detection-in-Videos
+
 We have chosen a dataset from github consisting of 400+ videos scraped off internet which are classified as “violent” and “non-violent”.
 
 	"cam1" and "cam2" are two subdirectories of the repository in github
