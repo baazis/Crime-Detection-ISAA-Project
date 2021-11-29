@@ -9,6 +9,20 @@ Through our proposed approach, the constant rise of criminal actions, their unex
 
 <br>
 
+
+## DATASET-
+
+We have chosen a dataset from github consisting of 400+ videos scraped off internet which are classified as “violent” and “non-violent”.
+
+	"cam1" and "cam2" are two subdirectories of the repository in github
+            
+	"non-violent/cam1" has 60 clips that depict non-violent behaviour"non-violent/cam2" has 60 movies that feature the same non-violent behaviours as "non-violent/cam1,"              but shot with a different camera and from a different perspective.
+            
+	There are 115 clips in "violence/cam1" that depict violent behaviour.
+            
+	"violence/cam2" has 115 clips that feature the same aggressive behaviours as "violent/cam1," but from a different camera and point of view.
+
+
 ## NEURAL NETWORK ARCHITECTURE (CUSTOMIZED CNN) 
 A Convolutional Neural Network (ConvNet/CNN) is a Deep Learning algorithm which can take in an input image, assign importance to various aspects/objects in the image/video and be able to differentiate one from the other. The pre-processing required in a CNN is much lower as compared to other classification algorithms. While in primitive methods filters are hand-coded, with enough training, CNN have the ability to learn these filters/characteristics.
 
@@ -21,6 +35,12 @@ Some parameters that we are using are
             	Epochs: 30
 
             	steps_per_epoch: 50
+
+
+## TECH STACK –
+NodeJS- Backend of our website
+OpenCV- Video processing,
+Tensorflow- neural Network Architecture
 
 
 ## 💼 &nbsp; Testing
