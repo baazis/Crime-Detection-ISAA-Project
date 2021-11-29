@@ -30,13 +30,13 @@ A Convolutional Neural Network (ConvNet/CNN) is a Deep Learning algorithm which 
 
 Some parameters that we are using are
 
-            	Optimizer: Adam
+        Optimizer: Adam
 
-            	Loss: BinaryCrossEntropy
+        Loss: BinaryCrossEntropy
 
-            	Epochs: 30
+        Epochs: 30
 
-            	steps_per_epoch: 50
+        steps_per_epoch: 50
 
 
 ## TECH STACK –
